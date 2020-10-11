@@ -34,7 +34,6 @@ function multiply(a, b) { //eslint-disable-line
   var product = a * b;
   var str = `The product of ${a} and ${b} is ${product}.`;
   console.log([product, str]);
-  
   return [product, str];
 }
 // Here is the test for multiply(); uncomment it to run it
@@ -104,6 +103,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+
+  // unable to complete at this time
 
 }
 
