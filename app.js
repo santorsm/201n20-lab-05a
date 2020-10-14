@@ -29,7 +29,7 @@ Write a function called multiply() that takes in two numbers as arguments and re
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
-// Write your code here
+// // Write your code here
 function multiply(a, b) { //eslint-disable-line
   var product = a * b;
   var str = `The product of ${a} and ${b} is ${product}.`;
@@ -59,6 +59,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   var productTotal = multiply(a,multiply(b,c)[0])[0];
   var sumTotalstr = `${a} and ${b} and ${c} sum to ${sumTotal}.`;
   var productTotalstr = `The product of ${a} and ${b} and ${c} is ${productTotal}.`;
+
   console.log([sumTotal,productTotal,sumTotalstr,productTotalstr]);
 
   return [sumTotal,productTotal,sumTotalstr,productTotalstr];
@@ -83,9 +84,13 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
+  var sumTotal = sum(sumArr[0],sum(sumArr[1],sumArr[2])[0])[0];
+  var str = `${sumArr} was passed in as an array of numbers, and ${sumTotal} is their sum.`;
 
-// unable to complete at this time
-//
+  console.log([sumTotal, str]);
+
+  return [sumTotal, str];
+}
 
 // Here is the test for sumArray(); uncomment it to run it
 
