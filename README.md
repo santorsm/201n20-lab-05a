@@ -12,22 +12,15 @@ This project involves forking and cloning a GitHub repo, and then creating solut
 
 ## Links and Resources
 
-This lab will have starter code provided.
+This lab had starter code provided
 
 ### 13 Oct 20
 
-- I watched the live code review prior to completion; did not reference after watching
-
 ## Reflections and Comments
 
-- Found it challenging to wrap my head around the parameter we were passing the arguments through conceptually
-  - I got myself all confused on a bunch of minutae
-- Watching the code review really helped me to gain a better understanding
-- Time-boxing made a difference, just have to remember to keep the timer volume lower
-- I do appreciate the stepped approach to introducing these items
-- Although I know we're going to get plenty of practice, this GitHub branching etc is still a bit uncomfortable
-  - I created a checklist of the steps to this point; we'll see how good my checklist dicipling is!
+ I watched the live code review prior to completion; referenced the review after several attempts to complete Problem 6 the Stretch Goal
 
 ## License
+
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
